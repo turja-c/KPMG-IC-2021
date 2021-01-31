@@ -21,7 +21,7 @@ function Jumbo() {
                 Curious to learn more? 
             </p>
             <p>
-                <Button variant="primary">Get Started</Button>
+                <Button variant="danger" href="QuestionPage">Get Started</Button>
             </p>
             </div>
         </Jumbotron>

@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image'
 export default function App() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="light">
       <div className="container">
       <Navbar.Brand href="HomePage" >
       <Image src="images/logo.png" height="50"/>
@@ -15,11 +15,11 @@ export default function App() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto ">
-          <Nav.Link href="">Pricing</Nav.Link>
+          <Nav.Link href="" style={{color: 'white'}}>Pricing</Nav.Link>
           &nbsp; &nbsp;
-          <Nav.Link href="">About</Nav.Link>
+          <Nav.Link href="" style={{color: 'white'}}>About</Nav.Link>
           &nbsp; &nbsp;
-          <Nav.Link href="">Contact</Nav.Link>
+          <Nav.Link href="" style={{color: 'white'}}>Contact</Nav.Link>
           &nbsp; &nbsp;
           &nbsp; &nbsp;
         </Nav>
