@@ -15,7 +15,7 @@ export default function App() {
      <hr></hr>
      <div className="footer" style={divStyle2} className="container">
         <div className="text-center">
-          <h7>Designed and Created by Turja Chowdhury {"\n"}</h7>
+          <h7>Copyright © 2021 Academix {"\n"}</h7>
         </div>
      </div>
     </>

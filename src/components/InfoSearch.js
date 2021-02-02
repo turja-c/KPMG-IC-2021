@@ -42,7 +42,7 @@ class InfoSearch extends Component {
     const items = Information.filter((data)=>{
       if(this.state.search == null)
           return data
-      else if(data.name.toLowerCase().includes(this.state.search.toLowerCase()) || data.country.toLowerCase().includes(this.state.search.toLowerCase())){
+      else if(data.name.toLowerCase().includes(this.state.search.toLowerCase()) || data.program.toLowerCase().includes(this.state.search.toLowerCase())){
           return data
       }
     }).map(data=>{
@@ -52,8 +52,8 @@ class InfoSearch extends Component {
         <ul>
           <li style={{position:'relative',right:'6vh',}} className="" >
             <span style={divStyle}>{data.name}</span>
-            <span style={divStyle}>{data.age}</span>
-            <span style={divStyle}>{data.country}</span>
+            <span style={divStyle}>{data.year}</span>
+            <span style={divStyle}>{data.program}</span>
           </li> 
         </ul>
       </div>
@@ -67,7 +67,7 @@ class InfoSearch extends Component {
         <div className="container">
         <Card className="container mainContainerCard" style={{ paddingRight: '50px', paddingLeft: '-20px', marginLeft: '00px'}}>
                     <Card.Header> 
-                    <h1 style={{ color: 'white'}}> Computer Science Mentors</h1>
+                    <h1 style={{ color: 'white'}}> Mentors Online</h1>
                      </Card.Header>
             <div className=" row">
             <input type="text" placeholder="Enter item to be searched" style={divStyle2} onChange={(e)=>this.searchSpace(e)} />

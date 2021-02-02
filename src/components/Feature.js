@@ -47,13 +47,13 @@ function Feature() {
                         <Card >
                         <Card.Img variant="top" src="images/video4.png" height="150" style={{ paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px' }}/>
                         <Card.Body style={{ paddingBottom: '-50px'}}>
-                            <Card.Title>Optimize Data</Card.Title>
+                            <Card.Title>Career Fair Winter 2020</Card.Title>
                         </Card.Body>
                         </Card>
                         <Card style={{marginTop: '40px'}}>
                         <Card.Img variant="top" src="images/video4.png" height="150" style={{ paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px' }}/>
                         <Card.Body style={{ paddingBottom: '-50px'}}>
-                            <Card.Title>Optimize Data</Card.Title>
+                            <Card.Title>Open Software Developer Roles</Card.Title>
                         </Card.Body>
                         </Card>     
                 </Card>
@@ -64,13 +64,13 @@ function Feature() {
                     <Card >
                         <Card.Img variant="top" src="images/video4.png" height="150" style={{ paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px' }}/>
                         <Card.Body style={{ paddingBottom: '-50px'}}>
-                            <Card.Title>Optimize Data</Card.Title>
+                            <Card.Title>Virtual Running Club</Card.Title>
                         </Card.Body>
                         </Card>
                         <Card style={{marginTop: '40px'}}>
-                        <Card.Img variant="top" src="images/video4.png" height="150" style={{ paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px' }}/>
+                        <Card.Img variant="top" src="images/chess.jpeg" height="150" style={{ paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px' }}/>
                         <Card.Body style={{ paddingBottom: '-50px'}}>
-                            <Card.Title>Optimize Data</Card.Title>
+                            <Card.Title>Virtual Chess Club</Card.Title>
                         </Card.Body>
                         </Card>   
                 </Card>

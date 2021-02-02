@@ -16,8 +16,7 @@ function About() {
                 <Card.Body>
                     <Card.Title>Analyze Progression</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        Track and measure the performance within each course by understanding the past history
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -26,8 +25,7 @@ function About() {
                 <Card.Body>
                     <Card.Title>Optimize Data</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Leverage your own usage and create an optimized platform that is tailored to you.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -36,8 +34,7 @@ function About() {
                 <Card.Body>
                     <Card.Title>Adapt To Changes</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        This interactive platform provides the opportunity to constantly change and fit to your education.
                     </Card.Text>
                 </Card.Body>
             </Card>
